@@ -1,7 +1,7 @@
 # Portfolio Template 🖐
 > Version 3 of a responsive personal website, built using React, HTML and Tailwind CSS.
 
-![Portfolio Template Banner](public/assets/template.png)
+![Portfolio Template Banner](https://github.com/arwin-dev/my-portfolio_v3/blob/main/src/assets/template.png)
 
 💻  Live [demo](https://arwin-dev.netlify.app/)
 
