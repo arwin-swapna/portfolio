@@ -2,7 +2,6 @@
 > Version 3 of a responsive personal website, built using React, HTML and Tailwind CSS.
 
 ![Portfolio Template Banner](public/assets/template.png)
-![Portfolio Template Banner](public/assets/readme/banner.png)
 
 💻  Live [demo](https://arwin-dev.netlify.app/)
 
@@ -59,5 +58,4 @@ All the images are in `public/assets`.
 
 ## Connect
 
-- Website at <a href="https://arwin-dev.netlify.app/" target="_blank">`https://arwin-dev.netlify.app/`</a>
 - Website at <a href="https://arwin-dev.netlify.app/" target="_blank">`https://arwin-dev.netlify.app/`</a>
