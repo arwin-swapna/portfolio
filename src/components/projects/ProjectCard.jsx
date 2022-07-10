@@ -14,9 +14,9 @@ const ProjectCard = ({name,tools,note,github}) => {
                 </div>
 
                 <div className='p4'>
-                    <h5 className="mb-2 p-3 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{name}</h5>
-                    <p className='p-4'>{note}</p>
-                    <p className='p-5'>{tools}</p>
+                    <h5 className="mb-2 pl-4 pb-3 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{name}</h5>
+                    <p className='pl-4 pb-3'>{tools}</p>
+                    <p className='pl-4'>{note}</p>
                 </div>
 
             </div>

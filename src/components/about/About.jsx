@@ -22,7 +22,7 @@ const About = () => {
               </h2>
               <h2>
                 I've previously worked as a R&D Intern at 
-                <span className='text-[#ff000f] font-medium'> ABB &</span>
+                <span className='text-[#ff000f] font-medium'> ABB </span>&
                 <span className='text-[#337179] font-medium'> DODGE</span>
               </h2>
               <h2 className='mt-5 text-4xl'>

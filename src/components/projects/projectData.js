@@ -21,21 +21,21 @@ export const projectData = [
         id:4,
         name: 'Facial Recognition App',
         tools: 'React | Clarifai-API ',
-        note: 'Detects face in a image',
+        note: 'Detects face in a Image, build using Clarifai Image Recognition API',
         github: 'https://github.com/arwin-dev/face-rec-app',
     },
     {
         id:4,
         name: 'Metadata Harvester',
         tools: 'C# | SQL | Sketchfab API ',
-        note: 'Detects face in a image',
+        note: "A tool to harvest metadata from sketchfab.com using API",
         github: '',
     },
     {
         id:4,
         name: 'Portfolio Website - V1',
         tools: 'Django | HTML | CSS | SCSS | JS',
-        note: 'Build a personal website using Django.',
+        note: 'Build a personal website using Django. Deployed using pythonanywhere.com',
         github: '',
     }
 
