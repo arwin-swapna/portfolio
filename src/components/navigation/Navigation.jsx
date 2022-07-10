@@ -43,12 +43,12 @@ const Navigation = () => {
                 </ul>
 
             {/* Hamburger*/}
-            <div onClick={handleClick} className='md:hidden z-10'>
+            <div onClick={handleClick} className='md:hidden z-[99999]'>
                 {!nav ? <FaBars/> : <FaTimes/>}
             </div>
 
             {/* Mobile Menu*/}
-                <ul className={!nav? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#0b0d0f] flex flex-col justify-center items-center'}>
+                <ul className={!nav? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#0b0d0f] flex flex-col justify-center items-center z-[9999]'}>
                     <li className='py-6 text-4xl'>
                         <Link onClick={handleClick}  to="home"  smooth={true} duration={500} >
                             Home
