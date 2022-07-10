@@ -12,7 +12,6 @@
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [Connect](#connect)
 
 ---
 
@@ -55,7 +54,3 @@ All the images are in `public/assets`.
 - Clone this repo to your local machine.
 - Checkout to a new branch. Give it a relevant name!
 - Create a pull request
-
-## Connect
-
-- Website at <a href="https://arwin-dev.netlify.app/" target="_blank">`https://arwin-dev.netlify.app/`</a>
