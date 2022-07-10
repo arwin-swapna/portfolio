@@ -23,6 +23,20 @@ export const projectData = [
         tools: 'React | Clarifai-API ',
         note: 'Detects face in a image',
         github: 'https://github.com/arwin-dev/face-rec-app',
+    },
+    {
+        id:4,
+        name: 'Metadata Harvester',
+        tools: 'C# | SQL | Sketchfab API ',
+        note: 'Detects face in a image',
+        github: '',
+    },
+    {
+        id:4,
+        name: 'Portfolio Website - V1',
+        tools: 'Django | HTML | CSS | SCSS | JS',
+        note: 'Build a personal website using Django.',
+        github: '',
     }
 
 ]
