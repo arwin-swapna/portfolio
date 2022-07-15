@@ -7,7 +7,9 @@ const About = () => {
           <div className='max-w-[1150px] w-full px-5'>
             <div className='flex md:text-8xl text-4xl '>
               <h2 className=' text-[#EFEFEF59]'>Greetings</h2>
-              <p className='ml-3'>👋🏽</p>
+              <p className='ml-3 flex justify-center'>
+                <img width={90} src="https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif" alt="" />
+              </p>
             </div>
             <div className='md:text-3xl text-2xl md:mt-8 mt-2 flex flex-col gap-5 '>
               <h2>

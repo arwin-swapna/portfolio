@@ -7,7 +7,7 @@ import { tools } from './toolData';
 const Skills = ({data}) => {
   return (
 
-    <div name='skills' className='w-full h-full md:h-screen bg-[#0b0d0f] text-[#dbdbdb] pt-20'>
+    <div name='skills' className='w-full h-screen bg-[#0b0d0f] text-[#dbdbdb] pt-20'>
       <div className='flex flex-col justify-center items-center w-full h-full'>
         <div className='max-w-[1150px] w-full px-5'>
           <h2 className='md:text-8xl mt-8 text-4xl text-[#EFEFEF59]'>Experience</h2>

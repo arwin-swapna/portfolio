@@ -1,10 +1,7 @@
 import React,{Component} from "react";
-import Navigation from "./components/navigation/Navigation";
-import Home from "./components/home/Home";
-import About from "./components/about/About";
-import Skills from "./components/skills/Skills";
-import Projects from "./components/projects/Projects";
-import Contact from "./components/contact/Contact";
+import {Routes, Route} from 'react-router-dom'
+import Layout from "./components/layout/Layout";
+
 
 class App extends Component {
   constructor(props){
@@ -28,22 +25,11 @@ class App extends Component {
 
     render(){
 
-      let {isLoaded,items} = this.state;
-
-      if(!isLoaded){
-        return <div>Loading....</div>
-      }
-
       return (
-        <div className="App">
-          <Navigation/>
-          <Home/>
-          <About/>
-          <Skills data={items}/>
-          <Projects/>
-          <Contact/>
-        </div>
-    );
+          <Routes>
+            <Route path="/" element={<Layout/>}/>
+          </Routes>
+      );
   }
   
 }
