@@ -1,0 +1,12 @@
+p{
+    line-height: 50px;
+}
+
+$small: 300px;
+$medium: 900px;
+
+@media screen and (min-width: $small) and (max-width: $medium) {
+  p{
+    line-height: 35px;
+  }
+}
