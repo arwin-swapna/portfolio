@@ -1,6 +1,5 @@
 import React from 'react';
 import ToolsCard from './ToolsCardList';
-import LeetcodeStats from '../leetcode/LeetcodeStats';
 import { tools } from './toolData';
 
 
