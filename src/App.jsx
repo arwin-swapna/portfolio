@@ -1,10 +1,12 @@
-import React,{Component} from "react";
-import Navigation from "./components/navigation/Navigation";
-import Home from "./components/home/Home";
-import About from "./components/about/About";
-import Skills from "./components/skills/Skills";
-import Projects from "./components/projects/Projects";
-import Contact from "./components/contact/Contact";
+import React,{Component} from "react"
+import {Routes, Route} from 'react-router-dom'
+import Layout from "./components/layout/Layout"
+import Home from './components/home/Home'
+import About from './components/about/About'
+import Skills from './components/skills/Skills'
+import Leetcode from "./components/leetcode/Leetcode"
+import Projects from './components/projects/Projects'
+import Contact from './components/contact/Contact'
 
 class App extends Component {
   constructor(props){
@@ -27,23 +29,21 @@ class App extends Component {
   }
 
     render(){
-
-      let {isLoaded,items} = this.state;
-
-      if(!isLoaded){
-        return <div>Loading....</div>
-      }
+      let {items} = this.state;
+      console.log(items)
 
       return (
-        <div className="App">
-          <Navigation/>
-          <Home/>
-          <About/>
-          <Skills data={items}/>
-          <Projects/>
-          <Contact/>
-        </div>
-    );
+          <Routes>
+            <Route path="/" element={<Layout/>}>
+              <Route index element={<Home/>}/>
+              <Route path="/about" element={<About/>} />
+              <Route path="/skills" element={<Skills data={items} />} />
+              <Route path="/leetcode" element={<Leetcode data={items} />}/>
+              <Route path="/projects" element={<Projects/>} />
+              <Route path="/contact" element={<Contact/>} />
+            </Route>
+          </Routes>
+      );
   }
   
 }

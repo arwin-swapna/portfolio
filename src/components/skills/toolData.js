@@ -12,42 +12,52 @@ import csharp from '../../assets/csharp.png'
 export const tools = [
     {
         id:1,
+        name: 'HTML',
         path: html
     },
     {
         id:2,
+        name: 'CSS',
         path: CSS
     },
     {
         id:3,
+        name: 'JavaScript',
         path: JS
     },
     {
         id:4,
+        name: 'React',
         path: react
     },
     {
         id:5,
+        name: 'Tailwind',
         path: tailwind
     },
     {
         id:6,
+        name: 'GitHub',
         path: GIT
     },
     {
         id:7,
+        name: 'Python',
         path: py
     },
     {
         id:8,
+        name: 'Django',
         path: django
     },
     {
         id:9,
+        name: 'SQL',
         path: sql
     },
     {
         id:10,
+        name: 'C#',
         path: csharp
     }
 

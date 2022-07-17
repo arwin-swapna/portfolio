@@ -9,6 +9,7 @@ const ToolsCard = (props) => {
                 <Card 
                 key={i} 
                 id={props.tools[i].id} 
+                name={props.tools[i].name}
                 path = {props.tools[i].path}
             />
             );
