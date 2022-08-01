@@ -1,43 +1,71 @@
 import React from 'react'
 import './Navigation.scss'
-import {NavLink} from 'react-router-dom'
 import {FaHome, FaUser, FaEnvelope, FaBriefcase, FaRobot } from 'react-icons/fa'
 import {SiLeetcode} from 'react-icons/si'
+import {NavLink} from 'react-router-dom'
 import { IconContext } from 'react-icons/lib'
 
 
 const Navigation = () => {
   return (
-    <div className='h-[60px] w-full fixed flex justify-center bottom-0 md:mb-5'>
-        <div className='nav-bar bg-gradient-to-l from-green-400 to-blue-500 text-black h-[45px] md:h-[55px] w-[350px] md:w-[450px] mx-auto rounded-3xl absolute'>
-            <nav className='flex w-full justify-between mx-8'>
+    <div className='w-screen md:flex justify-center'>
+        <div className='nav-bar px-20 fixed hidden md:flex justify-between items-center'>
                 <IconContext.Provider value={{size: 30}}>
                     <NavLink exact='true' activeclassname='active' to='/'>
-                        <FaHome/>
+                        <p>Home</p>
                     </NavLink>
 
                     <NavLink exact='true' activeclassname='active' to='/about'>
-                        <FaUser/>
+                        <p>About</p>
                     </NavLink>
 
                     <NavLink exact='true' activeclassname='active' to='/skills'>
-                        <FaBriefcase/>
+                        <p>Skills</p>
                     </NavLink>
 
                     <NavLink exact='true' activeclassname='active' to='/leetcode'>
-                        <SiLeetcode/>
+                        <p>Leetcode</p>
                     </NavLink>
 
                     <NavLink exact='true' activeclassname='active' to='/projects'>
-                        <FaRobot/>
+                        <p>Project</p>
                     </NavLink>
 
                     <NavLink exact='true' activeclassname='active' to='/contact'>
-                        <FaEnvelope/>
+                        <p className='text-transparent bg-clip-text bg-gradient-to-r from-[#ffb16a] to-[#d0ffbc]'>Let's Chat?</p>
                     </NavLink>
-
                 </IconContext.Provider>
-            </nav>
+        </div>
+
+        <div className='px-5'>
+            <div className='nav-ham px-5 rounded-3xl border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700  fixed bottom-0 md:hidden flex justify-between items-center'>
+                    <IconContext.Provider value={{size: 30}}>
+                        <NavLink exact='true' activeclassname='active' to='/'>
+                            <FaHome/>
+                        </NavLink>
+
+                        <NavLink exact='true' activeclassname='active' to='/about'>
+                            <FaUser/>
+                        </NavLink>
+
+                        <NavLink exact='true' activeclassname='active' to='/skills'>
+                            <FaBriefcase/>
+                        </NavLink>
+
+                        <NavLink exact='true' activeclassname='active' to='/leetcode'>
+                            <SiLeetcode/>
+                        </NavLink>
+
+                        <NavLink exact='true' activeclassname='active' to='/projects'>
+                            <FaRobot/>
+                        </NavLink>
+
+                        <NavLink exact='true' activeclassname='active' to='/contact'>
+                            <FaEnvelope/>
+                        </NavLink>
+                    </IconContext.Provider>
+        
+            </div>
         </div>
     </div>
   )

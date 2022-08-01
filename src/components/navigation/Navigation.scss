@@ -1,12 +1,41 @@
-.nav-bar{
-    display: flex;
-    justify-content: center;
-    align-items: center;
 
+
+.nav-bar{
+    width: 90%;
+    height: 70px;
+    a{
+        font-size: 20px;
+        opacity: 0.5;
+    }
+
+    a:hover{
+        opacity: 1;
+        font-size: 20.5px;
+        transition: 0.2s ease-out;
+    }
+
+    a.active{
+        opacity: 1;
+        p{      
+            font-size: 20.5px;
+        }
+    }
 }
 
-a.active{
-    svg{
-        color: darkslategray;
+.nav-ham{
+    width: 90%;
+    height: 50px;
+    margin-bottom: 10px;
+    
+
+    a{
+        color: white;
+        font-size: 20px;
+        opacity: 0.5;
+    }
+
+    a.active{
+        opacity: 1;
+
     }
 }

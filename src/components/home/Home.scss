@@ -1,0 +1,22 @@
+.home{
+    h1{
+        font-size: 12rem;
+        font-weight: 700;
+        background: -webkit-linear-gradient(#eee, #333);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        padding-bottom: 10px;
+        transition: 0.2s ease-out;
+    }
+    p{
+        font-size: 5rem;
+        font-weight: 400;
+        background: -webkit-linear-gradient(white, #0ebfff);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        transition: 0.2s ease-out; 
+    }
+    h1:hover{
+        transform: scale(1.1);
+    }
+}
