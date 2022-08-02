@@ -14,7 +14,7 @@ const About = () => {
 
             <div className='md:text-4xl text-2xl flex flex-col md:gap-6 gap-4 mt-5 '>
               <p>
-                I'm a Software Engineer, currently learning Full-Stack Development 
+                I'm a incoming Software Engineer Intern at <span className='text-[#1289a7] font-medium'>Tenex Software Solutions</span>, currently learning Full-Stack Development 
                 to build highly scalable Web Applications.
               </p>
               <p>

@@ -32,7 +32,7 @@ export const tools = [
     },
     {
         id:5,
-        name: 'Tailwind',
+        name: 'Tailwind CSS',
         path: tailwind
     },
     {

@@ -8,7 +8,7 @@ const Layout = () => {
     <div className='App'>
         <Navigation/>
 
-        <div className='page w-full h-screen'>
+        <div className='page'>
 
           <Outlet/>
 
