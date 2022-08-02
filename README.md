@@ -40,7 +40,7 @@ $ npm start
 
 Compiles and minifies for production
 ```shell
-$ npm build
+$ npm run build
 ```
 
 ## Usage
