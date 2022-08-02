@@ -28,7 +28,7 @@ const About = () => {
                 can catch excellence."
               </p>
               <p>
-                This philosophy is what drives the <span className='text-transparent bg-clip-text bg-gradient-to-r from-[#ff6da5] to-[#ff8a58]'>engineer in me.</span>
+                This philosophy is what drives the <span className='text-transparent opac opacity-75 hover:opacity-100 duration-200 bg-clip-text bg-gradient-to-r from-[#ff6da5] to-[#ff8a58]'>engineer in me.</span>
               </p>
 
             </div>
