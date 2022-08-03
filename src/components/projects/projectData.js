@@ -3,7 +3,8 @@ export const projectData = [
         id:1,
         name: 'Portfolio Website - V3',
         tools: 'React | Tailwind | API',
-        note: 'Website created to showcase knowledge in React',
+        note: 'Third Iteration of Personal Portfolio Website',
+        github: 'https://github.com/arwin-dev/my-portfolio_v3',
     },
     {
         id:2,
@@ -29,14 +30,13 @@ export const projectData = [
         name: 'Metadata Harvester',
         tools: 'C# | SQL | Sketchfab API ',
         note: "A tool to harvest metadata from sketchfab.com using API",
-        github: '',
     },
     {
         id:4,
         name: 'Portfolio Website - V1',
         tools: 'Django | HTML | CSS | SCSS | JS',
         note: 'Build a personal website using Django. Deployed using pythonanywhere.com',
-        github: '',
+        github: 'https://github.com/arwin-dev/my-portfolio_v1',
     }
 
 ]
