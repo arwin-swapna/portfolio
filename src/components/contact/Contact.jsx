@@ -1,5 +1,5 @@
 import React from 'react'
-import Resume from '../../assets/resume_Arwin_ArunSwapna_v4.1.pdf'
+import Resume from '../../assets/resume_Arwin_ArunSwapna_v5.0.pdf'
 
 const Contact = () => {
   return (
