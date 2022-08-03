@@ -38,7 +38,7 @@ const Navigation = () => {
         </div>
 
         <div className='px-5'>
-            <div className='nav-ham px-5 rounded-3xl shadow-md fixed bottom-0 md:hidden flex justify-between items-center'>
+            <div className='nav-ham px-5 rounded-3xl shadow-md fixed bottom-[2%] md:hidden flex justify-between items-center'>
                     <IconContext.Provider value={{size: 30}}>
                         <NavLink exact='true' activeclassname='active' to='/'>
                             <FaHome/>

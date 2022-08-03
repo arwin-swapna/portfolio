@@ -9,11 +9,11 @@ const LeetcodeStats = ({data}) => {
   return (
     <div className='mt-5 grid md:grid-cols-3 grid-cols-1 gap-3'>
             {/*======= Easy Stats ========== */}
-            <div className="block p-5 max-w-full bg-white rounded-lg border border-gray-200 shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+            <div className="block p-5 max-w-full rounded-lg shadow-md bg-slate-800">
                 <div className='flex flex-row justify-between'>
 
                   <div>
-                    <h5  className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Easy Questions</h5>
+                    <h5  className="mb-2 text-2xl font-bold tracking-tight text-white">Easy Questions</h5>
                     <p className='leading-loose'>Questions Solved: <span className='font-bold'>{data.easySolved}/{data.totalEasy}</span></p>
                   </div>
 
@@ -24,11 +24,11 @@ const LeetcodeStats = ({data}) => {
                 </div>
             </div>
             {/*======= Medium Stats ========== */}
-            <div className="block p-4 max-w-full bg-white rounded-lg border border-gray-200 shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+            <div className="block p-5 max-w-full rounded-lg shadow-md bg-slate-800">
                 <div className='flex flex-row justify-between'>
 
                   <div>
-                    <h5  className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Medium Questions</h5>
+                    <h5  className="mb-2 text-2xl font-bold tracking-tight text-white">Medium Questions</h5>
                     <p className='leading-loose'>Questions Solved: <span className='font-bold'>{data.mediumSolved}/{data.totalMedium}</span></p>
                   </div>
 
@@ -39,11 +39,11 @@ const LeetcodeStats = ({data}) => {
                 </div>
             </div>
             {/*======= Hard Stats ========== */}
-            <div className="block p-5 max-w-full bg-white rounded-lg border border-gray-200 shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+            <div className="block p-5 max-w-full rounded-lg shadow-md bg-slate-800">
                 <div className='flex flex-row justify-between'>
 
                   <div>
-                    <h5  className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Hard Questions</h5>
+                    <h5  className="mb-2 text-2xl font-bold tracking-tight text-white">Hard Questions</h5>
                     <p className='leading-loose'>Questions Solved: <span className='font-bold'>{data.hardSolved}/{data.totalHard}</span></p>
                   </div>
 

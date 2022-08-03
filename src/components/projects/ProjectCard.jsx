@@ -5,18 +5,18 @@ import {FiFolder} from 'react-icons/fi'
 const ProjectCard = ({name,tools,note,github}) => {
   return (
     <div>
-        <div className="block p-5 max-w-full h-max bg-white rounded-lg border border-gray-200 shadow-md hover:bg-blue-100 dark:bg-blue-800 dark:border-gray-700 dark:hover:bg-gray-700">
+        <div className="block p-9 max-w-full h-max rounded-lg bg-slate-800 shadow-md">
             <div className='flex flex-col justify-between'>
-                <div className='flex justify-between p-3'>
+                <div className='flex justify-between pb-3'>
                     <FiFolder size={35}/>
                     <FaGithub size={35}/>
                     
                 </div>
 
-                <div className='p4'>
-                    <h5 className="mb-2 pl-4 pb-3 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{name}</h5>
-                    <p className='pl-4 pb-3'>{tools}</p>
-                    <p className='pl-4'>{note}</p>
+                <div className=''>
+                    <h5 className="text-2xl font-bold text-white">{name}</h5>
+                    <p className='text-cyan-500'>{tools}</p>
+                    <p className='leading-tight'>{note}</p>
                 </div>
 
             </div>
