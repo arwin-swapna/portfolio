@@ -5,7 +5,7 @@ import {FiFolder} from 'react-icons/fi'
 const ProjectCard = ({name,tools,note,github}) => {
   return (
     <div>
-        <div className="block p-9 max-w-full h-max rounded-lg bg-slate-800 shadow-md hover:translate-y-[-8px] duration-300">
+        <div className="block p-9 max-w-full h-max rounded-lg bg-slate-800 shadow-md md:hover:translate-y-[-8px] duration-300">
             <div className='flex flex-col justify-between'>
                 <div className='flex justify-between pb-3'>
                     <FiFolder size={35}/>
