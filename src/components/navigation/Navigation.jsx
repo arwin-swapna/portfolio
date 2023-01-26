@@ -23,10 +23,6 @@ const Navigation = () => {
                         <p>Skills</p>
                     </NavLink>
 
-                    <NavLink exact='true' activeclassname='active' to='/leetcode'>
-                        <p>Leetcode</p>
-                    </NavLink>
-
                     <NavLink exact='true' activeclassname='active' to='/projects'>
                         <p>Project</p>
                     </NavLink>
@@ -50,10 +46,6 @@ const Navigation = () => {
 
                         <NavLink exact='true' activeclassname='active' to='/skills'>
                             <FaBriefcase/>
-                        </NavLink>
-
-                        <NavLink exact='true' activeclassname='active' to='/leetcode'>
-                            <SiLeetcode/>
                         </NavLink>
 
                         <NavLink exact='true' activeclassname='active' to='/projects'>
