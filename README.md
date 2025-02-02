@@ -3,8 +3,6 @@
 
 ![Portfolio Template Banner](https://github.com/arwin-dev/my-portfolio_v3/blob/main/src/assets/template.png)
 
-💻  Live [demo](https://arwin-dev.netlify.app/)
-
 ---
 
 ## Table of Contents
